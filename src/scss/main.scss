@@ -1,0 +1,14 @@
+// global styles
+@import "./mixins/mixins";
+@import "./mixins/media";
+@import "./mixins/vars";
+@import "./global/fonts";
+@import "./global/vendor";
+@import "./global/settings";
+@import "./global/global-styles";
+// header 
+@import "./sections/header";
+// body 
+@import "./sections/body";
+// footer 
+@import "./sections/footer";

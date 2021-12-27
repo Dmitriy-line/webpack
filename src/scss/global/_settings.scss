@@ -1,0 +1,36 @@
+
+html {
+  box-sizing: border-box;
+  @include _1200{
+    display: subgrid;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  margin: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+ul,li{
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button{
+  background: transparent;
+  border: none;
+}
+
